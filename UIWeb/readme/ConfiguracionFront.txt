@@ -1,0 +1,9 @@
+* Primero debemos crear el archivo bower.json se deberá acceder a la carpeta de la solución web a través del CMD y se tipeará bower init.
+* Entrar al GitBash y colocarnos en la ruta del proyecto web(ingresar directorio por directorio en el cd) y crear al archivo .bowerrc con el comando touch .bowerrc esto nos ayudará a cambiar la ruta por defecto de donde se descargarán los archivos que descarguemos de de no crear el archivo se creará una carpeta por defecto "bower_components"
+* bower install angular --save or  --save-dev
+* Luego de instalar las librerias del Front se tendrá que instalar debemos configurar una tarea en Gulp para descargarnos los typings.
+* Ponernos en la ruta del proyecto y tipear npm init
+* Instalar los paquetes necesarios para crear la tarea en Gulp la más principal en este caso es npm install gulp-tsd -save-dev.
+* No se deberá incluir en el proyecto la carpeta node_modules
+* Creamos el archivo Gulpfile.js para crear la tarea automatizada y obtenernos los typings
+* Para correr la tarea solo tipeamos Gulp "taskName"

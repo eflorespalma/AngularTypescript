@@ -1,0 +1,36 @@
+﻿{
+  "version": "v4",
+  "repo": "DefinitelyTyped/DefinitelyTyped",
+  "ref": "master",
+  "path": "scripts/typings",
+  "bundle": "scripts/typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "12ede35d5b3d5d5595ce6edf41f6f1a96ea33d1f"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "12ede35d5b3d5d5595ce6edf41f6f1a96ea33d1f"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "12ede35d5b3d5d5595ce6edf41f6f1a96ea33d1f"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "12ede35d5b3d5d5595ce6edf41f6f1a96ea33d1f"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "12ede35d5b3d5d5595ce6edf41f6f1a96ea33d1f"
+    },
+    "angular-toastr/angular-toastr.d.ts": {
+      "commit": "5a66911a99a4c13ecf4f38c3f574e32339e24de9"
+    },
+    "angular-local-storage/angular-local-storage.d.ts": {
+      "commit": "e41aa98022f6d1d2edab13dd580976555986d4d2"
+    },
+    "bootstrap/bootstrap.d.ts": {
+      "commit": "1f0791147c6c145227b1778bb26781a79d516917"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "a1bc94c2570c279710f7a3f8cb6a3070ddf18336"
+    }
+  }
+}

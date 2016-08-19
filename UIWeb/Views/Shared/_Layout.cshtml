@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html data-ng-app="inicio">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo APP</title>
+    <link href="~/scripts/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/scripts/angular-toastr/dist/angular-toastr.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+    <script src="~/scripts/angular/angular.min.js"></script>
+    <script src="~/scripts/jquery/dist/jquery.min.js"></script>
+    <script src="~/scripts/angular-route/angular-route.min.js"></script>
+    <script src="~/scripts/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="~/scripts/angular-cookies/angular-cookies.min.js"></script>
+    <script src="~/scripts/angular-toastr/dist/angular-toastr.min.js"></script>
+    <script src="~/scripts/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
+    <!-- App Init Loaders -->
+    <script src="~/app/inicio.module.js"></script>
+    <script src="~/app/inicio.run.js"></script>
+    <!-- Item Container -->
+    <script src="~/app/configuration/item/item.module.js"></script>
+    <script src="~/app/configuration/item/item.route.js"></script>
+    <script src="~/app/configuration/item/item.controller.js"></script>
+    <!--Services-->
+    <script src="~/app/services/service.module.js"></script>
+    <script src="~/app/services/configuration/Item/item.service.js"></script>
+    <!--Common -->
+    <script src="~/app/blocks/blocks.module.js"></script>
+    <script src="~/app/blocks/apiendpoint.config.js"></script>
+    <script src="~/app/blocks/apiendpoint.provider.js"></script>
+</body>
+</html>
